@@ -1,0 +1,7 @@
+﻿services:
+  cs50speller:
+    image: cs50speller
+    build:
+      context: .
+      dockerfile: Dockerfile
+
